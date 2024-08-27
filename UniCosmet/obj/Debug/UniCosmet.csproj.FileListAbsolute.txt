@@ -1,0 +1,11 @@
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\bin\Debug\UniCosmet.exe.config
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\bin\Debug\UniCosmet.exe
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\bin\Debug\UniCosmet.pdb
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.Properties.Resources.resources
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.LogIn.resources
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.view.SignUp.resources
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.exe
+C:\Users\Usuario\Documents\ASDO_Proyects\UniCosmet\UniCosmet\obj\Debug\UniCosmet.pdb
