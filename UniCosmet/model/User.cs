@@ -8,13 +8,20 @@ namespace UniCosmet.model
 {
     internal class User
     {
-        private String nickName { get; set; }
-        private String password { get; set; }
+        public String NickName { get; set; }
+        public String Password { get; set; }
 
-        public User(String nickName, String password) {
-            this.nickName = nickName;
-            this.password = password;
+        public User(string nickName, string password)
+        {
+            NickName = nickName;
+            Password = password;
         }
+
+
+
+
+
+
 
         //public String getNickName() {
         //    return nickName;
@@ -30,6 +37,6 @@ namespace UniCosmet.model
         //public void setPassword(String password) { 
         //    this.password = password;
         //}
-        
+
     }
 }

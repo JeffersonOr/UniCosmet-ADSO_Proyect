@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,10 +15,12 @@ namespace UniCosmet
 {
     public partial class LogIn : Form
     {
-        UserController userController;
+        LoginController loginController;
+        ArrayList userList;
         public LogIn()
         {
             InitializeComponent();
+            loginController = new LoginController(userList);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -29,7 +32,7 @@ namespace UniCosmet
         {
             String nickName = tb_nickName.Text;
             String password = tb_password.Text;
-            bool answer = userController.Login(nickName, password);
+            bool answer = loginController.Login(nickName, password);
             if (answer) {
                 MessageBox.Show("Ingresado correctamente ;)");
             }

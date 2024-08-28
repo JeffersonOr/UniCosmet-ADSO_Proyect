@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,23 +11,17 @@ namespace UniCosmet.controller
     internal class UserController
     {
         User user;
+        User user1;
+        public ArrayList userList { get; private set; }
         public UserController() {
-            
+            userList = new ArrayList();
+        }
+        public User SignUp(User user) {
+            userList.Add(user);
+            user1 = (User)userList[0];
+            Console.WriteLine(user1.NickName);
+            return user1;
         }
 
-        public User SignUp(String nickName, String password) {
-            user = new User(nickName, password);
-            return user;
-        }
-
-        public bool Login(String nickName, String password) {
-            if (user.getNickName() == nickName && user.getPassword() == password) {
-                return true;
-            }
-            else {
-                return false;
-            }
-            
-        }
     }
 }

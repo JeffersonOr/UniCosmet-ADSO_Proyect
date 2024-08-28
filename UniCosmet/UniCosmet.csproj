@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller\LoginController.cs" />
     <Compile Include="controller\UserController.cs" />
     <Compile Include="model\User.cs" />
     <Compile Include="view\LogIn.cs">
